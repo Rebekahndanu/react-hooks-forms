@@ -7,7 +7,7 @@ function ParentComponent() {
   const [lastName, setLastName] = useState("Henry");
 
   function handleFirstNameChange(event) {
-    console.log(setFirstName(event.target.value)); 
+    setFirstName(event.target.value); 
   }
 
   function handleLastNameChange(event) {
